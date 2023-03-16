@@ -5,6 +5,8 @@
 
     <title>Title</title>
 
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -49,7 +51,29 @@
         </div>
     </header>
 
-    <main class="main"></main>
+    <main class="main">
+        <section class="top">
+            <div class="container">
+                <h1 class="top__title">
+                    Leasing From D&M
+                </h1>
+                <a href="new-cars.html" class="top__title-link">
+                    FIND A CAR
+                </a>
+            </div>
+        </section>
+        <div class="top__slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url(img/slider-car1.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(img/slider-car2.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(img/slider-car3.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(img/slider-car4.jpg);"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </main>
 
     <footer class="footer">
         <div class="container">
@@ -195,6 +219,9 @@
         </div>
     </footer>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
