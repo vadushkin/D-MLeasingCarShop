@@ -562,10 +562,63 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding: 13px 61px;
-    margin: 0 auto 141px;
+    margin: 0 auto;
 }
 
 
 /* ############################################################### */
 /* Contacts block end */
+/* ############################################################### */
+
+/* ############################################################### */
+/* Blog block start */
+/* ############################################################### */
+
+.blog {
+    padding-bottom: 150px;
+}
+
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.blog__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog__item-img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.blog__item-title {
+    flex-basis: 446px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog__item-link {
+    color: white;
+    background-color: #0066FF;
+    padding: 4px 20px;
+}
+
+.blog__link {
+    text-transform: uppercase;
+    background-color: #151515;
+    padding: 13px;
+    color: white;
+    width: 225px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+/* ############################################################### */
+/* Blog block end */
 /* ############################################################### */
