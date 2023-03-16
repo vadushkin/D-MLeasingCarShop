@@ -114,6 +114,13 @@ body {
     flex-direction: column;
 }
 
+.second__title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .main {
     flex-grow: 1;
 }
@@ -267,7 +274,7 @@ body {
 
 }
 
-.top__title {
+.title {
     padding-bottom: 40px;
     font-size: 96px;
     font-weight: 700;
@@ -328,4 +335,38 @@ body {
 
 /* ############################################################### */
 /* Top block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Benefits block start */
+/* ############################################################### */
+
+.benefits {
+    padding: 150px 0;
+}
+
+.benefits__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.benefits__item-img {
+    margin-bottom: 30px;
+}
+
+.benefits__item-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.benefits__item-text{
+    text-align: left;
+}
+
+/* ############################################################### */
+/* Benefits block end */
 /* ############################################################### */
