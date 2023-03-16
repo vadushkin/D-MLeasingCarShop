@@ -436,7 +436,6 @@ body {
 /* Welcome-video block start */
 /* ############################################################### */
 
-
 .welcome-video {
     padding-bottom: 150px;
 }
@@ -457,7 +456,38 @@ body {
     display: block;
 }
 
-
 /* ############################################################### */
 /* Welcome-video block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Considerations block start */
+/* ############################################################### */
+
+.considerations {
+    padding-bottom: 150px;
+}
+
+.considerations__title {
+    margin-bottom: 20px;
+}
+
+.considerations__text {
+    margin: 0 auto 50px;
+    max-width: 580px;
+}
+
+.considerations__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.considerations__item-img {
+    margin-bottom: 20px;
+}
+
+/* ############################################################### */
+/* Considerations block end */
 /* ############################################################### */
