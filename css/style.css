@@ -431,3 +431,33 @@ body {
 /* ############################################################### */
 /* Workflow block end */
 /* ############################################################### */
+
+/* ############################################################### */
+/* Welcome-video block start */
+/* ############################################################### */
+
+
+.welcome-video {
+    padding-bottom: 150px;
+}
+
+.welcome-video__title {
+    margin-bottom: 20px;
+}
+
+.welcome-video__text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.welcome-video__video {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* ############################################################### */
+/* Welcome-video block end */
+/* ############################################################### */
