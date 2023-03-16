@@ -363,10 +363,71 @@ body {
     font-weight: 700;
 }
 
-.benefits__item-text{
+.benefits__item-text {
     text-align: left;
 }
 
 /* ############################################################### */
 /* Benefits block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Workflow block start */
+/* ############################################################### */
+
+.workflow {
+    padding-bottom: 150px;
+}
+
+.workflow__inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.workflow__mini-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.workflow__list {
+    padding: 50px 0 70px;
+    counter-reset: Counter;
+}
+
+.workflow__list-item {
+    width: 270px;
+    position: relative;
+    margin-left: auto;
+    box-sizing: content-box;
+    padding: 19px 0 19px 240px;
+    min-height: 63px;
+}
+
+.workflow__list-item + .workflow__list-item {
+    margin-top: 40px;
+}
+
+.workflow__list-item::before {
+    counter-increment: Counter;
+    content: counter(Counter);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    background-color: #0066FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    color: white;
+
+}
+
+/* ############################################################### */
+/* Workflow block end */
 /* ############################################################### */
