@@ -171,6 +171,25 @@ body {
     right: 0;
 }
 
+.header__menu-burger {
+    width: 30px;
+    height: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.header__menu-burger span {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+}
+
 .header__menu-list {
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +208,6 @@ body {
     color: #0066FF;
 }
 
-
 /* ############################################################### */
 /* Header block end */
 /* ############################################################### */
@@ -197,7 +215,6 @@ body {
 /* ############################################################### */
 /* Footer block start */
 /* ############################################################### */
-
 
 .footer {
     background-color: #151515;
@@ -317,7 +334,6 @@ body {
     bottom: 0;
     top: 0;
 }
-
 
 .swiper-slide {
     background-repeat: no-repeat;
@@ -580,7 +596,6 @@ body {
     margin: 0 auto;
 }
 
-
 /* ############################################################### */
 /* Contacts block end */
 /* ############################################################### */
@@ -712,7 +727,75 @@ body {
 /* Media queries block start */
 /* ############################################################### */
 
+@media (max-width: 1180px) {
+    .considerations__list {
+        gap: 30px 20px;
+    }
 
+    .considerations__item-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1180px) {
+    .welcome-video__video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 860px) {
+    .considerations__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .benefits__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .header__menu-burger {
+        display: flex;
+    }
+
+    .header__menu-burger {
+        position: relative;
+        z-index: 10;
+    }
+    .header__logo {
+        position: relative;
+        z-index: 10;
+    }
+    .header__menu-list {
+        z-index: 5;
+        position: absolute;
+        background-color: #151515;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding-top: 200px;
+        height: 100vh;
+        align-items: center;
+        transform: translateY(-100%);
+    }
+
+    .header__menu-list.header__menu-list-active {
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 500px) {
+    .benefits__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .considerations__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* ############################################################### */
 /* Media queries block end */

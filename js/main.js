@@ -24,6 +24,14 @@ categoriesItem.forEach((el) => {
     el.addEventListener('click', changeActiveForCategory);
 })
 
+const menu = document.querySelector('.header__menu-list');
+const menuBurger = document.querySelector('.header__menu-burger');
+
+
+menuBurger.addEventListener('click', () => {
+    menu.classList.toggle('header__menu-list-active');
+});
+
 
 const swiper = new Swiper(".swiper", {
     pagination: {
