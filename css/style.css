@@ -114,6 +114,17 @@ body {
     flex-direction: column;
 }
 
+.show-more-link {
+    text-transform: uppercase;
+    background-color: #151515;
+    padding: 13px;
+    color: white;
+    width: 225px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
 .second__title {
     margin-bottom: 50px;
     font-size: 48px;
@@ -172,6 +183,10 @@ body {
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
+}
+
+.header__menu-item-link-active {
+    color: #0066FF;
 }
 
 
@@ -608,17 +623,87 @@ body {
     padding: 4px 20px;
 }
 
-.blog__link {
-    text-transform: uppercase;
-    background-color: #151515;
-    padding: 13px;
-    color: white;
-    width: 225px;
-    margin: 0 auto;
+/* ############################################################### */
+/* Blog block end */
+/* ############################################################### */
+
+/* ############################################################### */
+/* Catalog block start */
+/* ############################################################### */
+
+.catalog {
+    padding: 100px 0 150px;
+}
+
+.catalog__categories-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 0 150px 100px;
+}
+
+.catalog__categories-item-link {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.catalog__categories-item-link-active {
+    color: #0066FF;
+}
+
+.catalog__card-list {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.catalog__card-list.catalog__card-list-active {
+    display: grid;
+}
+
+.catalog__card-item {
     text-align: center;
+    margin-bottom: 100px;
+}
+
+.catalog__card-item-img {
     display: block;
 }
 
+.catalog__card-item-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.catalog__card-content-wrapper {
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
+.catalog__card-item-text {
+    margin-bottom: 20px;
+}
+
+.catalog__card-item-price {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.catalog__card-item-link {
+    display: block;
+    border: 1px solid #0066FF;
+    border-top: 0;
+    color: #0066FF;
+}
+
 /* ############################################################### */
-/* Blog block end */
+/* Catalog block end */
 /* ############################################################### */
