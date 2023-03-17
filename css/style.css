@@ -123,6 +123,11 @@ body {
     margin: 0 auto;
     text-align: center;
     display: block;
+    transition: .3s;
+}
+
+.show-more-link:hover {
+    padding: 15px;
 }
 
 .second__title {
@@ -202,6 +207,11 @@ body {
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
+    transition: .2s;
+}
+
+.header__menu-item-link:hover {
+    color: #0066FF;
 }
 
 .header__menu-item-link-active {
@@ -242,10 +252,24 @@ body {
 
 .footer__menu-item-link {
     color: white;
+    transition: .3s;
+}
+
+.footer__menu-item-link:hover {
+    color: #0066FF;
 }
 
 .footer__menu-item + .footer__menu-item {
     /*padding-top: 20px;*/
+}
+
+.footer__app-item-img {
+    transition: .5s;
+}
+
+.footer__app-item-img:hover {
+    height: 101%;
+    width: 101%;
 }
 
 .footer__menu-item {
@@ -284,6 +308,11 @@ body {
 
 .footer__copy-nav-item-link {
     color: white;
+    transition: .3s;
+}
+
+.footer__copy-nav-item-link:hover {
+    color: #0066FF;
 }
 
 /* ############################################################### */
@@ -322,6 +351,12 @@ body {
     font-size: 36px;
     font-weight: 700;
     color: white;
+    transition: .1s;
+}
+
+.top__title-link:hover {
+    max-width: 435px;
+    padding: 24px;
 }
 
 .swiper::after {
@@ -595,6 +630,12 @@ body {
     padding: 13px 61px;
     margin: 0 auto;
     border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contacts__form-button:hover {
+    padding: 14px 63px;
 }
 
 /* ############################################################### */
@@ -637,6 +678,11 @@ body {
     color: white;
     background-color: #0066FF;
     padding: 4px 20px;
+    transition: .4s;
+}
+
+.blog__item-link:hover {
+    padding: 4px 21px;
 }
 
 /* ############################################################### */
@@ -665,6 +711,12 @@ body {
     border: none;
     background-color: transparent;
     padding: 0;
+    transition: .5s;
+}
+
+.catalog__categories-item-link:hover {
+    color: #0066FF;
+    opacity: .9;
 }
 
 .catalog__categories-item-link-active {
@@ -718,6 +770,12 @@ body {
     border: 1px solid #0066FF;
     border-top: 0;
     color: #0066FF;
+    transition: .3s;
+}
+
+.catalog__card-item-link:hover {
+    background-color: #0066FF;
+    color: white;
 }
 
 /* ############################################################### */
